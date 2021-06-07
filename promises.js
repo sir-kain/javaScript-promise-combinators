@@ -6,15 +6,15 @@ const promise1 = () => {
 const promise2 = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("resolve P2");
-    }, 2000);
+      resolve("resolve P2 after 1s");
+    }, 1000);
   });
 };
 const promise3 = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("resolve P3");
-    }, 3000);
+      resolve("resolve P3 after 2s");
+    }, 2000);
   });
 };
 
