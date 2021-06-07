@@ -1,4 +1,8 @@
-# JavaScript Promise combinators
+# JavaScript Promise combinators 
+
+A little repo to demonstrate how [Javascript Promise Combinators](https://v8.dev/features/promise-combinators) work.
+
+[Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) - [Promise.race](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race) - [Promise.allSettled](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allsettled) - [Promise.any](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any)
 
 ## Usage
 
