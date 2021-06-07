@@ -11,8 +11,8 @@ Promise.allSetlled
 const promises = [promise1(), promise2(), promise3()];
 Promise.allSettled(promises)
   .then((result) => {
-    console.log("res ", result);
+    console.log("[result] ", result);
   })
   .catch((reason) => {
-    console.error("error ", reason);
+    console.error("[Error] ", reason);
   });
